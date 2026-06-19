@@ -1,0 +1,805 @@
+{
+  "generatedAt": "2026-06-18",
+  "routePrefix": "/examples",
+  "hubRoute": "/examples",
+  "homepageRoute": "/",
+  "globalDisclaimer": "Reference preview only. Images are credited third-party source references or topical assets, not results produced by this site, and this is not medical advice.",
+  "pageTemplate": {
+    "sections": [
+      "hero",
+      "preset",
+      "how_it_works",
+      "privacy",
+      "use_case_guidance",
+      "faq",
+      "related_examples",
+      "image_credit"
+    ],
+    "structuredData": [
+      "BreadcrumbList",
+      "ImageObject",
+      "FAQPage"
+    ]
+  },
+  "pages": [
+    {
+      "priority": "P0",
+      "rank": 2,
+      "keyword": "bleph before after photos",
+      "slug": "bleph-before-after-photos",
+      "route": "/examples/bleph-before-after-photos",
+      "category": "medical-clean",
+      "title": "Bleph Before After Photos Template | Before & After Photo Maker",
+      "description": "Create a clean bleph before after photo layout with labels, frame, and export-ready preview. Images are processed locally in your browser.",
+      "h1": "Bleph Before After Photos Template",
+      "image": "/seo-assets/composed/bleph-before-after-photos.webp",
+      "imageAlt": "Sample bleph before after photos comparison frame with before and after labels.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "medical-clean",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this page as a neutral layout example for organizing eyelid-area comparison photos without presenting the credited reference image as a result produced by this site.",
+      "faqs": [
+        {
+          "question": "Can I make bleph before after photos without uploading them?",
+          "answer": "Yes. The planned tool processes images locally in the browser by default, so the photos do not need to be uploaded to a server."
+        },
+        {
+          "question": "Is this a real medical before and after result?",
+          "answer": "The preview uses a credited source or reference image where available. It is not a medical claim by this site or a treatment example produced by this site."
+        },
+        {
+          "question": "What should I remove before using eyelid photos?",
+          "answer": "Remove names, dates of birth, record numbers, and any other identifying information before sharing or publishing comparison photos."
+        }
+      ],
+      "relatedSlugs": [
+        "blepharoplasty-before-after-photos",
+        "blepharoplasty-before-and-after-photos",
+        "eyelid-surgery-before-and-after-photos",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P0",
+      "rank": 4,
+      "keyword": "eyebrow microblading before and after photos",
+      "slug": "eyebrow-microblading-before-and-after-photos",
+      "route": "/examples/eyebrow-microblading-before-and-after-photos",
+      "category": "beauty-soft",
+      "title": "Eyebrow Microblading Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create an eyebrow microblading before and after photo layout with labels, frame, and export-ready preview. Images are processed locally.",
+      "h1": "Eyebrow Microblading Before and After Photos Template",
+      "image": "/seo-assets/composed/eyebrow-microblading-before-and-after-photos.webp",
+      "imageAlt": "Sample eyebrow microblading before and after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "beauty-soft",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this template for brow styling portfolios, consultation examples, and beauty service previews where a tidy side-by-side frame matters.",
+      "faqs": [
+        {
+          "question": "Can I add before and after labels for eyebrow photos?",
+          "answer": "Yes. The template should open with before and after labels already enabled."
+        },
+        {
+          "question": "Can I use this for a beauty salon page?",
+          "answer": "Yes, but use your own properly authorized client photos and avoid implying the sample image is your real result."
+        },
+        {
+          "question": "What export size should I use?",
+          "answer": "Use the default 1600 by 1000 preview for website pages, or switch to a social ratio when posting to social channels."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photos-of-eyelash-extensions",
+        "before-and-after-acne-treatment-photos",
+        "before-and-after-photos-of-lip-augmentation",
+        "lip-augmentation-before-and-after-photos"
+      ]
+    },
+    {
+      "priority": "P0",
+      "rank": 5,
+      "keyword": "before and after acne treatment photos",
+      "slug": "before-and-after-acne-treatment-photos",
+      "route": "/examples/before-and-after-acne-treatment-photos",
+      "category": "beauty-soft",
+      "title": "Before and After Acne Treatment Photos Template | Before & After Photo Maker",
+      "description": "Create a before and after acne treatment photo layout with labels, frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Acne Treatment Photos Template",
+      "image": "/seo-assets/composed/before-and-after-acne-treatment-photos.webp",
+      "imageAlt": "Sample before and after acne treatment photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "beauty-soft",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this as a clean comparison layout for skincare documentation, consultation notes, or personal progress photos without making treatment claims.",
+      "faqs": [
+        {
+          "question": "Does the sample show a real acne treatment result?",
+          "answer": "No. It is only a layout sample and should not be interpreted as a treatment result."
+        },
+        {
+          "question": "Can I keep acne photos private?",
+          "answer": "The planned tool is browser-local by default, so you can create the comparison without uploading images."
+        },
+        {
+          "question": "Should I retouch acne comparison photos?",
+          "answer": "For documentation, avoid retouching that changes the condition being compared. Use labels and consistent framing instead."
+        }
+      ],
+      "relatedSlugs": [
+        "eyebrow-microblading-before-and-after-photos",
+        "before-and-after-photos-of-eyelash-extensions",
+        "before-and-after-photos",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P0",
+      "rank": 6,
+      "keyword": "blepharoplasty before after photos",
+      "slug": "blepharoplasty-before-after-photos",
+      "route": "/examples/blepharoplasty-before-after-photos",
+      "category": "medical-clean",
+      "title": "Blepharoplasty Before After Photos Template | Before & After Photo Maker",
+      "description": "Create a blepharoplasty before after photo layout with labels, frame, and export-ready preview. Images are processed locally.",
+      "h1": "Blepharoplasty Before After Photos Template",
+      "image": "/seo-assets/composed/blepharoplasty-before-after-photos.webp",
+      "imageAlt": "Sample blepharoplasty before after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "medical-clean",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this page as a neutral page template for eyelid surgery comparison layouts. The credited source image is for reference only and is not a procedure outcome produced or endorsed by this site.",
+      "faqs": [
+        {
+          "question": "Can I use this for clinic before and after pages?",
+          "answer": "Yes, but only with properly authorized photos, accurate context, and any consent language required in your jurisdiction."
+        },
+        {
+          "question": "Are photos uploaded to the server?",
+          "answer": "The intended tool flow processes photos locally in the browser by default."
+        },
+        {
+          "question": "Why does the page include a sample disclaimer?",
+          "answer": "Medical and cosmetic comparison pages need to avoid implying that a sample frame is a real patient result."
+        }
+      ],
+      "relatedSlugs": [
+        "bleph-before-after-photos",
+        "blepharoplasty-before-and-after-photos",
+        "eyelid-surgery-before-and-after-photos",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P0",
+      "rank": 7,
+      "keyword": "before and after photos of teeth whitening",
+      "slug": "before-and-after-photos-of-teeth-whitening",
+      "route": "/examples/before-and-after-photos-of-teeth-whitening",
+      "category": "dental-white",
+      "title": "Before and After Photos of Teeth Whitening Template | Before & After Photo Maker",
+      "description": "Create teeth whitening before and after photos with a clean comparison frame, labels, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Photos of Teeth Whitening Template",
+      "image": "/seo-assets/composed/before-and-after-photos-of-teeth-whitening.webp",
+      "imageAlt": "Sample before and after photos of teeth whitening comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this dental-style frame for bright, clear smile comparisons while keeping credited source imagery separate from claims about your own whitening results.",
+      "faqs": [
+        {
+          "question": "Can I compare teeth whitening photos side by side?",
+          "answer": "Yes. This page maps to a side-by-side frame with before and after labels."
+        },
+        {
+          "question": "Should I change lighting in whitening comparisons?",
+          "answer": "Use consistent lighting when documenting real results so the comparison is not misleading."
+        },
+        {
+          "question": "Can I export the comparison for a website?",
+          "answer": "Yes. The recommended export is a web-ready image with a clean dental frame."
+        }
+      ],
+      "relatedSlugs": [
+        "braces-photos-before-and-after",
+        "before-and-after-photos-of-braces",
+        "dental-veneers-before-after-photos",
+        "before-after-invisalign-photos"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 10,
+      "keyword": "blepharoplasty before and after photos",
+      "slug": "blepharoplasty-before-and-after-photos",
+      "route": "/examples/blepharoplasty-before-and-after-photos",
+      "category": "medical-clean",
+      "title": "Blepharoplasty Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create a blepharoplasty before and after photo layout with labels, frame, and export-ready preview. Images are processed locally.",
+      "h1": "Blepharoplasty Before and After Photos Template",
+      "image": "/seo-assets/composed/blepharoplasty-before-and-after-photos.webp",
+      "imageAlt": "Sample blepharoplasty before and after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "medical-clean",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "This page targets the full before-and-after phrasing and should keep unique copy, FAQ text, and internal links separate from the shorter variant.",
+      "faqs": [
+        {
+          "question": "Why is this separate from the shorter blepharoplasty keyword page?",
+          "answer": "The keyword wording is different enough to deserve its own page, but the content must still be unique and useful."
+        },
+        {
+          "question": "Can clinics use this exact sample image?",
+          "answer": "Use it only as a generic sample layout. Real clinic pages should use authorized, accurately described case photos."
+        },
+        {
+          "question": "What privacy language should appear on this page?",
+          "answer": "State that photos are processed locally by default and that identifying patient information should be removed before sharing."
+        }
+      ],
+      "relatedSlugs": [
+        "bleph-before-after-photos",
+        "blepharoplasty-before-after-photos",
+        "eyelid-surgery-before-and-after-photos",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 12,
+      "keyword": "before and after photos of lip augmentation",
+      "slug": "before-and-after-photos-of-lip-augmentation",
+      "route": "/examples/before-and-after-photos-of-lip-augmentation",
+      "category": "beauty-soft",
+      "title": "Before and After Photos of Lip Augmentation Template | Before & After Photo Maker",
+      "description": "Create lip augmentation before and after photos with labels, a clean frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Photos of Lip Augmentation Template",
+      "image": "/seo-assets/composed/before-and-after-photos-of-lip-augmentation.webp",
+      "imageAlt": "Sample before and after photos of lip augmentation comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "beauty-soft",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this beauty-focused frame for lip comparison layouts, with careful language that avoids presenting the sample as a real cosmetic outcome.",
+      "faqs": [
+        {
+          "question": "Can I make lip augmentation comparison photos?",
+          "answer": "Yes, the page should launch a preset with close-up labels and a soft beauty frame."
+        },
+        {
+          "question": "Is this sample a real lip augmentation result?",
+          "answer": "No. It is a visual template only."
+        },
+        {
+          "question": "Can I add a clinic watermark?",
+          "answer": "The tool should support a small watermark or logo for authorized clinic images."
+        }
+      ],
+      "relatedSlugs": [
+        "lip-augmentation-before-and-after-photos",
+        "eyebrow-microblading-before-and-after-photos",
+        "before-and-after-photos-of-eyelash-extensions",
+        "before-and-after-acne-treatment-photos"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 13,
+      "keyword": "braces photos before and after",
+      "slug": "braces-photos-before-and-after",
+      "route": "/examples/braces-photos-before-and-after",
+      "category": "dental-white",
+      "title": "Braces Photos Before and After Template | Before & After Photo Maker",
+      "description": "Create braces photos before and after with labels, a dental-style frame, and export-ready preview. Images are processed locally.",
+      "h1": "Braces Photos Before and After Template",
+      "image": "/seo-assets/composed/braces-photos-before-and-after.webp",
+      "imageAlt": "Sample braces photos before and after comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this page for orthodontic comparison layouts that need a clear dental presentation and consistent labels.",
+      "faqs": [
+        {
+          "question": "Can I use this for orthodontic progress photos?",
+          "answer": "Yes, as long as real patient photos are authorized and presented accurately."
+        },
+        {
+          "question": "What layout works best for braces photos?",
+          "answer": "A side-by-side layout with matching crop and lighting is easiest to compare."
+        },
+        {
+          "question": "Can I export a braces comparison image?",
+          "answer": "Yes. The template should export a web-ready comparison frame."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photos-of-braces",
+        "dental-braces-before-and-after-photos",
+        "before-after-invisalign-photos",
+        "before-and-after-photos-of-teeth-whitening"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 15,
+      "keyword": "before and after photos of braces",
+      "slug": "before-and-after-photos-of-braces",
+      "route": "/examples/before-and-after-photos-of-braces",
+      "category": "dental-white",
+      "title": "Before and After Photos of Braces Template | Before & After Photo Maker",
+      "description": "Create before and after photos of braces with labels, a clean dental frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Photos of Braces Template",
+      "image": "/seo-assets/composed/before-and-after-photos-of-braces.webp",
+      "imageAlt": "Sample before and after photos of braces comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "This page targets users who want a polished braces comparison photo layout for documentation, websites, or patient education.",
+      "faqs": [
+        {
+          "question": "Can I crop both braces photos to match?",
+          "answer": "Yes. The tool should allow users to align and crop each side before exporting."
+        },
+        {
+          "question": "Does the page show a real orthodontic result?",
+          "answer": "No. The preview is a sample frame."
+        },
+        {
+          "question": "Should I include dates on braces photos?",
+          "answer": "Dates can help with progress documentation, but avoid publishing private patient information."
+        }
+      ],
+      "relatedSlugs": [
+        "braces-photos-before-and-after",
+        "dental-braces-before-and-after-photos",
+        "before-after-invisalign-photos",
+        "dental-veneers-before-after-photos"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 16,
+      "keyword": "before and after photos of eyelash extensions",
+      "slug": "before-and-after-photos-of-eyelash-extensions",
+      "route": "/examples/before-and-after-photos-of-eyelash-extensions",
+      "category": "beauty-soft",
+      "title": "Before and After Photos of Eyelash Extensions Template | Before & After Photo Maker",
+      "description": "Create eyelash extension before and after photos with labels, a soft beauty frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Photos of Eyelash Extensions Template",
+      "image": "/seo-assets/composed/before-and-after-photos-of-eyelash-extensions.webp",
+      "imageAlt": "Sample before and after photos of eyelash extensions comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "beauty-soft",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this beauty template for lash artists, salons, or personal comparisons that need a close-up before-and-after frame.",
+      "faqs": [
+        {
+          "question": "Can I make an eyelash extension before and after image?",
+          "answer": "Yes. This page should open a soft beauty frame with before and after labels."
+        },
+        {
+          "question": "What crop works best for eyelash photos?",
+          "answer": "Use a close-up crop with similar eye position on both sides."
+        },
+        {
+          "question": "Can I add a salon logo?",
+          "answer": "The tool should allow a small watermark or logo for branded salon examples."
+        }
+      ],
+      "relatedSlugs": [
+        "eyebrow-microblading-before-and-after-photos",
+        "before-and-after-acne-treatment-photos",
+        "before-and-after-photos-of-lip-augmentation",
+        "lip-augmentation-before-and-after-photos"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 17,
+      "keyword": "dental braces before and after photos",
+      "slug": "dental-braces-before-and-after-photos",
+      "route": "/examples/dental-braces-before-and-after-photos",
+      "category": "dental-white",
+      "title": "Dental Braces Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create dental braces before and after photos with labels, a clean frame, and export-ready preview. Images are processed locally.",
+      "h1": "Dental Braces Before and After Photos Template",
+      "image": "/seo-assets/composed/dental-braces-before-and-after-photos.webp",
+      "imageAlt": "Sample dental braces before and after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this dental braces page when the target audience expects a clinic-ready comparison layout with clear labels and neutral styling.",
+      "faqs": [
+        {
+          "question": "How is this different from the braces photo page?",
+          "answer": "This page targets the dental braces wording and should include dental-specific copy and internal links."
+        },
+        {
+          "question": "Can I use this for patient education?",
+          "answer": "Yes, when paired with authorized images and accurate explanatory text."
+        },
+        {
+          "question": "Can I download the result as a single image?",
+          "answer": "Yes. The intended tool exports one combined comparison image."
+        }
+      ],
+      "relatedSlugs": [
+        "braces-photos-before-and-after",
+        "before-and-after-photos-of-braces",
+        "before-after-invisalign-photos",
+        "before-and-after-photos-of-teeth-whitening"
+      ]
+    },
+    {
+      "priority": "P1",
+      "rank": 18,
+      "keyword": "dental veneers before after photos",
+      "slug": "dental-veneers-before-after-photos",
+      "route": "/examples/dental-veneers-before-after-photos",
+      "category": "dental-white",
+      "title": "Dental Veneers Before After Photos Template | Before & After Photo Maker",
+      "description": "Create dental veneers before after photos with labels, a clean dental frame, and export-ready preview. Images are processed locally.",
+      "h1": "Dental Veneers Before After Photos Template",
+      "image": "/seo-assets/composed/dental-veneers-before-after-photos.webp",
+      "imageAlt": "Sample dental veneers before after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this page for dental veneer comparison layouts, with a strong reminder that credited source images are references, not results produced by this site.",
+      "faqs": [
+        {
+          "question": "Can dentists use this veneers layout?",
+          "answer": "Yes, but real treatment images should be authorized and shown with accurate context."
+        },
+        {
+          "question": "Can I compare shade changes?",
+          "answer": "Yes, but real comparisons should use consistent lighting and avoid misleading edits."
+        },
+        {
+          "question": "Is the sample a real veneer case?",
+          "answer": "No. It is only a template preview."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photos-of-teeth-whitening",
+        "braces-photos-before-and-after",
+        "dental-braces-before-and-after-photos",
+        "before-after-invisalign-photos"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 22,
+      "keyword": "eyelid surgery before and after photos",
+      "slug": "eyelid-surgery-before-and-after-photos",
+      "route": "/examples/eyelid-surgery-before-and-after-photos",
+      "category": "medical-clean",
+      "title": "Eyelid Surgery Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create eyelid surgery before and after photos with labels, a clean frame, and export-ready preview. Images are processed locally.",
+      "h1": "Eyelid Surgery Before and After Photos Template",
+      "image": "/seo-assets/composed/eyelid-surgery-before-and-after-photos.webp",
+      "imageAlt": "Sample eyelid surgery before and after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "medical-clean",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this medical-clean layout for safe page structure planning around eyelid surgery comparison photos, not as a substitute for consent or compliance review.",
+      "faqs": [
+        {
+          "question": "Can this page host real eyelid surgery examples?",
+          "answer": "Only if the photos are authorized, accurately described, and compliant with applicable rules."
+        },
+        {
+          "question": "What makes this page safer for medical SEO?",
+          "answer": "It uses source credits, privacy guidance, and avoids presenting credited reference imagery as your own result."
+        },
+        {
+          "question": "Should consent guidance be linked?",
+          "answer": "Yes. Link to the medical spa consent form requirements page."
+        }
+      ],
+      "relatedSlugs": [
+        "bleph-before-after-photos",
+        "blepharoplasty-before-after-photos",
+        "blepharoplasty-before-and-after-photos",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 23,
+      "keyword": "lip augmentation before and after photos",
+      "slug": "lip-augmentation-before-and-after-photos",
+      "route": "/examples/lip-augmentation-before-and-after-photos",
+      "category": "beauty-soft",
+      "title": "Lip Augmentation Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create lip augmentation before and after photos with labels, a soft beauty frame, and export-ready preview. Images are processed locally.",
+      "h1": "Lip Augmentation Before and After Photos Template",
+      "image": "/seo-assets/composed/lip-augmentation-before-and-after-photos.webp",
+      "imageAlt": "Sample lip augmentation before and after photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "beauty-soft",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "This variant targets the direct lip augmentation keyword and should link to the longer photos-of-lip-augmentation page without duplicating its copy.",
+      "faqs": [
+        {
+          "question": "Can I use the same frame for filler and augmentation examples?",
+          "answer": "The visual frame can be reused, but page copy should be accurate to the actual service and claims."
+        },
+        {
+          "question": "Can I keep client photos local?",
+          "answer": "Yes. The intended tool flow keeps processing in the browser by default."
+        },
+        {
+          "question": "Should I include a sample disclaimer?",
+          "answer": "Yes. Cosmetic comparison pages should clearly separate sample layouts from real outcomes."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photos-of-lip-augmentation",
+        "eyebrow-microblading-before-and-after-photos",
+        "before-and-after-photos-of-eyelash-extensions",
+        "before-and-after-acne-treatment-photos"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 27,
+      "keyword": "before and after photo consent form medical spa requirements",
+      "slug": "before-and-after-photo-consent-form-medical-spa-requirements",
+      "route": "/examples/before-and-after-photo-consent-form-medical-spa-requirements",
+      "category": "document-consent",
+      "title": "Before and After Photo Consent Form Medical Spa Requirements | Before & After Photo Maker",
+      "description": "Plan a before and after photo consent workflow for medical spa images with privacy-first framing, labels, and local image processing.",
+      "h1": "Before and After Photo Consent Form Medical Spa Requirements",
+      "image": "/seo-assets/composed/before-and-after-photo-consent-form-medical-spa-requirements.webp",
+      "imageAlt": "Sample medical spa consent form requirements page with before and after photo frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "document-consent",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "This page should function as the compliance-aware support page for medical spa photo workflows, without offering legal advice.",
+      "faqs": [
+        {
+          "question": "Is this legal advice for medical spa consent forms?",
+          "answer": "No. The page should explain product workflow considerations and direct users to qualified legal or compliance review."
+        },
+        {
+          "question": "Why link this page from medical examples?",
+          "answer": "It gives users a privacy and consent context before they publish sensitive before-and-after photos."
+        },
+        {
+          "question": "Should consent details be stored in the image tool?",
+          "answer": "Not in v1. Keep image generation local and avoid storing sensitive client or patient data."
+        }
+      ],
+      "relatedSlugs": [
+        "bleph-before-after-photos",
+        "blepharoplasty-before-after-photos",
+        "eyelid-surgery-before-and-after-photos",
+        "before-and-after-acne-treatment-photos"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 33,
+      "keyword": "before after invisalign photos",
+      "slug": "before-after-invisalign-photos",
+      "route": "/examples/before-after-invisalign-photos",
+      "category": "dental-white",
+      "title": "Before After Invisalign Photos Template | Before & After Photo Maker",
+      "description": "Create before after Invisalign-style photos with labels, a dental frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before After Invisalign Photos Template",
+      "image": "/seo-assets/composed/before-after-invisalign-photos.webp",
+      "imageAlt": "Sample before after Invisalign photos comparison frame with clear aligner imagery.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "dental-white",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this clear-aligner page for orthodontic comparison searches while keeping the sample image non-clinical and non-claim based.",
+      "faqs": [
+        {
+          "question": "Can I use this for clear aligner comparison photos?",
+          "answer": "Yes. The page should describe clear aligner photo layouts without making treatment claims."
+        },
+        {
+          "question": "Is Invisalign a trademark?",
+          "answer": "Yes. Use trademarked terms carefully and avoid implying affiliation unless one exists."
+        },
+        {
+          "question": "What related pages should this link to?",
+          "answer": "Link to braces, dental braces, veneers, and teeth whitening examples."
+        }
+      ],
+      "relatedSlugs": [
+        "braces-photos-before-and-after",
+        "before-and-after-photos-of-braces",
+        "dental-braces-before-and-after-photos",
+        "dental-veneers-before-after-photos"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 35,
+      "keyword": "before and after photos",
+      "slug": "before-and-after-photos",
+      "route": "/examples/before-and-after-photos",
+      "category": "neutral-frame",
+      "title": "Before and After Photos Template | Before & After Photo Maker",
+      "description": "Create before and after photos with a clean side-by-side frame, labels, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Photos Template",
+      "image": "/seo-assets/composed/before-and-after-photos.webp",
+      "imageAlt": "Sample before and after photos comparison frame for general use.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "neutral-frame",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "This is the broad generic case page for users who want a clean before-and-after layout without a medical, dental, beauty, or fitness-specific angle.",
+      "faqs": [
+        {
+          "question": "What is a before and after photo template?",
+          "answer": "It is a frame that places two images side by side with labels so changes are easy to compare."
+        },
+        {
+          "question": "Can I use this for any topic?",
+          "answer": "Yes, as long as the content is allowed, authorized, and accurately described."
+        },
+        {
+          "question": "Can I export one final comparison image?",
+          "answer": "Yes. The planned tool should export a single image file for websites or sharing."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-weight-loss-photos",
+        "before-and-after-acne-treatment-photos",
+        "before-and-after-photos-of-teeth-whitening",
+        "eyebrow-microblading-before-and-after-photos"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 36,
+      "keyword": "before and after weight loss photos",
+      "slug": "before-and-after-weight-loss-photos",
+      "route": "/examples/before-and-after-weight-loss-photos",
+      "category": "fitness-neutral",
+      "title": "Before and After Weight Loss Photos Template | Before & After Photo Maker",
+      "description": "Create before and after weight loss photos with labels, a clean fitness frame, and export-ready preview. Images are processed locally.",
+      "h1": "Before and After Weight Loss Photos Template",
+      "image": "/seo-assets/composed/before-and-after-weight-loss-photos.webp",
+      "imageAlt": "Sample before and after weight loss photos comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "fitness-neutral",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this fitness page for personal progress, coaching previews, or transformation documentation with careful, non-shaming language.",
+      "faqs": [
+        {
+          "question": "Can I make a weight loss before and after image?",
+          "answer": "Yes. The page should launch a clean fitness comparison frame."
+        },
+        {
+          "question": "Should I include dates or weight numbers?",
+          "answer": "Only include details you are comfortable sharing publicly, and avoid exposing private health information."
+        },
+        {
+          "question": "Is the sample a real weight loss result?",
+          "answer": "No. It is a sample layout only."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photos",
+        "before-and-after-acne-treatment-photos",
+        "before-and-after-photos-of-teeth-whitening",
+        "before-and-after-photo-consent-form-medical-spa-requirements"
+      ]
+    },
+    {
+      "priority": "P2",
+      "rank": 39,
+      "keyword": "laser tattoo removal photos before after",
+      "slug": "laser-tattoo-removal-photos-before-after",
+      "route": "/examples/laser-tattoo-removal-photos-before-after",
+      "category": "medical-clean",
+      "title": "Laser Tattoo Removal Photos Before After Template | Before & After Photo Maker",
+      "description": "Create laser tattoo removal photos before after with labels, a clean frame, and export-ready preview. Images are processed locally.",
+      "h1": "Laser Tattoo Removal Photos Before After Template",
+      "image": "/seo-assets/composed/laser-tattoo-removal-photos-before-after.webp",
+      "imageAlt": "Sample laser tattoo removal photos before after comparison frame.",
+      "preset": {
+        "labelBefore": "Before",
+        "labelAfter": "After",
+        "aspectRatio": "16:10",
+        "frameStyle": "medical-clean",
+        "exportFormat": "webp"
+      },
+      "useCaseCopy": "Use this page for a tattoo-removal comparison layout while avoiding claims that the credited source image represents your own removal progress.",
+      "faqs": [
+        {
+          "question": "Can I use this for laser tattoo removal comparisons?",
+          "answer": "Yes, with authorized photos and accurate context."
+        },
+        {
+          "question": "Is the sample a treatment result?",
+          "answer": "The image is a credited source or reference asset and does not show a tattoo-removal outcome produced by this site."
+        },
+        {
+          "question": "Should tattoo photos include identifying information?",
+          "answer": "Avoid including identifying details unless you have explicit permission to publish them."
+        }
+      ],
+      "relatedSlugs": [
+        "before-and-after-photo-consent-form-medical-spa-requirements",
+        "before-and-after-photos",
+        "blepharoplasty-before-after-photos",
+        "eyelid-surgery-before-and-after-photos"
+      ]
+    }
+  ]
+}

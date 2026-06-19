@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="Luxury Caption 9:16 before after frame">
+  <rect width="1080" height="1920" fill="none" />
+  
+    <rect x="72" y="72" width="936" height="1776" fill="none" stroke="rgba(18,18,18,0.18)" stroke-width="2" />
+    <path d="M 72 960 L 1008 960" stroke="rgba(18,18,18,0.52)" stroke-width="3" stroke-linecap="round" />
+    <path d="M 425 904 H 655" stroke="rgba(18,18,18,0.62)" stroke-width="2" />
+    <path d="M 425 1096 H 655" stroke="rgba(18,18,18,0.62)" stroke-width="2" />
+    <text x="540" y="864" text-anchor="middle" dominant-baseline="middle" fill="#151515" font-family="Cormorant Garamond, Garamond, Georgia, serif" font-size="42" font-weight="400" font-style="" opacity="1" letter-spacing="0">Before</text>
+    <text x="540" y="1056" text-anchor="middle" dominant-baseline="middle" fill="#151515" font-family="Cormorant Garamond, Garamond, Georgia, serif" font-size="42" font-weight="400" font-style="" opacity="1" letter-spacing="0">After</text>
+  
+</svg>

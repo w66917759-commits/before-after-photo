@@ -1,0 +1,56 @@
+[
+  {
+    "id": "serif-line",
+    "name": "Serif Line",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/serif-line.png",
+    "svg": "/frame-templates/16x9/serif-line.svg"
+  },
+  {
+    "id": "luxury-caption",
+    "name": "Luxury Caption",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/luxury-caption.png",
+    "svg": "/frame-templates/16x9/luxury-caption.svg"
+  },
+  {
+    "id": "editorial-tag",
+    "name": "Editorial Tag",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/editorial-tag.png",
+    "svg": "/frame-templates/16x9/editorial-tag.svg"
+  },
+  {
+    "id": "serif-line",
+    "name": "Serif Line",
+    "ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "png": "/frame-templates/9x16/serif-line.png",
+    "svg": "/frame-templates/9x16/serif-line.svg"
+  },
+  {
+    "id": "luxury-caption",
+    "name": "Luxury Caption",
+    "ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "png": "/frame-templates/9x16/luxury-caption.png",
+    "svg": "/frame-templates/9x16/luxury-caption.svg"
+  },
+  {
+    "id": "editorial-tag",
+    "name": "Editorial Tag",
+    "ratio": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "png": "/frame-templates/9x16/editorial-tag.png",
+    "svg": "/frame-templates/9x16/editorial-tag.svg"
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="Editorial Tag 16:9 before after frame">
+  <rect width="1920" height="1080" fill="none" />
+  
+    <rect x="78" y="78" width="1764" height="924" fill="none" stroke="rgba(222,211,190,0.9)" stroke-width="4" />
+    <path d="M 960 78 L 960 1002" stroke="rgba(222,211,190,0.95)" stroke-width="6" stroke-linecap="round" />
+    
+    <rect x="361" y="55" width="238" height="62" fill="rgba(244,237,222,0.88)" stroke="rgba(31,27,22,0.12)" stroke-width="2" />
+    <text x="480" y="88" text-anchor="middle" dominant-baseline="middle" fill="#2b2118" font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="38" font-weight="500" font-style="italic" opacity="1" letter-spacing="0">Before</text>
+  
+    
+    <rect x="1321" y="55" width="238" height="62" fill="rgba(244,237,222,0.88)" stroke="rgba(31,27,22,0.12)" stroke-width="2" />
+    <text x="1440" y="88" text-anchor="middle" dominant-baseline="middle" fill="#2b2118" font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="38" font-weight="500" font-style="italic" opacity="1" letter-spacing="0">After</text>
+  
+  
+</svg>

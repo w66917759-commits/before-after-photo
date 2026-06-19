@@ -1,0 +1,29 @@
+[
+  {
+    "id": "serif-line",
+    "name": "Serif Line",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/serif-line.png",
+    "svg": "/frame-templates/16x9/serif-line.svg"
+  },
+  {
+    "id": "luxury-caption",
+    "name": "Luxury Caption",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/luxury-caption.png",
+    "svg": "/frame-templates/16x9/luxury-caption.svg"
+  },
+  {
+    "id": "editorial-tag",
+    "name": "Editorial Tag",
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "png": "/frame-templates/16x9/editorial-tag.png",
+    "svg": "/frame-templates/16x9/editorial-tag.svg"
+  }
+]

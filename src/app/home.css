@@ -1,0 +1,107 @@
+/* =================================================================
+   Homepage — compact, tool-first hero
+   The maker itself is the page; this is just a slim title block.
+   ================================================================= */
+
+.tool-hero {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  padding: clamp(1.8rem, 1.1rem + 3vw, 3.6rem) 0 clamp(1.3rem, 1rem + 1.6vw, 2.2rem);
+}
+
+.tool-hero .eyebrow {
+  margin: 0 0 20px;
+}
+
+.tool-hero h1 {
+  max-width: 18ch;
+  margin: 0;
+  font-size: var(--fs-display);
+  font-weight: 540;
+  line-height: 0.98;
+  letter-spacing: 0;
+}
+
+.tool-hero h1 .free-accent {
+  display: block;
+  font-family: var(--serif);
+  font-size: 1.04em;
+  font-weight: 780;
+  color: var(--clay-deep);
+}
+
+.tool-hero h1 .accent {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--clay);
+}
+
+.tool-hero__free {
+  max-width: 42rem;
+  margin: 18px 0 0;
+  font-size: var(--fs-lead);
+  font-weight: 560;
+  line-height: 1.45;
+  letter-spacing: 0;
+  color: var(--ink-soft);
+}
+
+/* Trust row -------------------------------------------------------- */
+
+.home-trust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 20px;
+  margin-top: 22px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.home-trust span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-trust svg {
+  color: var(--clay);
+}
+
+/* On-load choreography -------------------------------------------- */
+
+.tool-hero .eyebrow,
+.tool-hero h1,
+.tool-hero__free,
+.tool-hero .home-trust {
+  animation: rise 0.7s var(--ease) both;
+}
+
+.tool-hero h1 {
+  animation-delay: 0.05s;
+}
+
+.tool-hero__free {
+  animation-delay: 0.12s;
+}
+
+.tool-hero .home-trust {
+  animation-delay: 0.18s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tool-hero .eyebrow,
+  .tool-hero h1,
+  .tool-hero__free,
+  .tool-hero .home-trust {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .tool-hero__free {
+    margin-top: 14px;
+  }
+}

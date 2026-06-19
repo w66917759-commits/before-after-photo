@@ -1,0 +1,32 @@
+{
+  "name": "before-after-photo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "generate:ai-seo-sources": "python3 \"${CODEX_HOME:-$HOME/.codex}/skills/.system/imagegen/scripts/image_gen.py\" generate-batch --input scripts/ai-seo-image-prompts.jsonl --out-dir public/seo-assets/ai-sources --concurrency 2 --force --no-augment",
+    "generate:simple-frames": "node scripts/generate-simple-frames.mjs",
+    "generate:seo-assets": "node scripts/generate-seo-assets.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^1.20.0",
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "sharp": "^0.34.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "playwright": "^1.61.0",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
