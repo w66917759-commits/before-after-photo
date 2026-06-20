@@ -26,7 +26,6 @@ export function SiteHeader({ locale, dictionary }: SiteHeaderProps) {
     { href: localizedPath("/#templates", locale), label: dictionary.header.nav.templates },
     { href: localizedPath("/guides", locale), label: dictionary.header.nav.guides },
     { href: localizedPath("/#how-to-use", locale), label: dictionary.header.nav.how },
-    { href: localizedPath("/examples", locale), label: dictionary.header.nav.examples },
     { href: localizedPath("/#privacy", locale), label: dictionary.header.nav.privacy },
   ];
 

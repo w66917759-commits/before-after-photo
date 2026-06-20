@@ -4,6 +4,13 @@ import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { getGuideSummary } from "@/lib/i18n/dictionaries";
 import { localizedPath, type Locale } from "@/lib/i18n/locales";
 import { guideCategories, getGuidesByCategory, guides, type Guide } from "@/lib/guides";
+import { getSeoLandingPagesBySection, seoLandingSectionLabels, type SeoLandingSection } from "@/lib/seo-pages";
+
+const seoPageGroups: Array<{ section: SeoLandingSection; pages: ReturnType<typeof getSeoLandingPagesBySection> }> = [
+  { section: "tools", pages: getSeoLandingPagesBySection("tools") },
+  { section: "use-cases", pages: getSeoLandingPagesBySection("use-cases") },
+  { section: "templates", pages: getSeoLandingPagesBySection("templates") },
+];
 
 export function GuidesPage({ locale, dictionary }: { locale: Locale; dictionary: Dictionary }) {
   const featured = guides.slice(0, 3);
@@ -21,9 +28,6 @@ export function GuidesPage({ locale, dictionary }: { locale: Locale; dictionary:
           <Link className="button button--primary" href={localizedPath("/#maker", locale)}>
             <Wand2 size={18} />
             {dictionary.guidesPage.hero.makerCta}
-          </Link>
-          <Link className="button button--ghost" href={localizedPath("/examples", locale)}>
-            {dictionary.guidesPage.hero.examplesCta} <ArrowRight size={17} />
           </Link>
         </div>
       </section>
@@ -45,6 +49,38 @@ export function GuidesPage({ locale, dictionary }: { locale: Locale; dictionary:
           ))}
         </div>
       </section>
+
+      {locale === "en" ? (
+        <section className="section section--compact">
+          <div className="section-heading">
+            <div>
+              <span className="eyebrow">Landing pages</span>
+              <h2>Tool pages, use cases, and templates</h2>
+              <p>
+                These pages map common search phrases to the actual maker workflow so visitors can
+                start from the page that matches their intent.
+              </p>
+            </div>
+          </div>
+          <div className="guide-category-list">
+            {seoPageGroups.map((group) => (
+              <section className="guide-category" key={group.section} aria-labelledby={`seo-${group.section}`}>
+                <h3 id={`seo-${group.section}`}>{seoLandingSectionLabels[group.section]}</h3>
+                <div className="guide-grid">
+                  {group.pages.map((page) => (
+                    <Link className="guide-card guide-card--compact" href={page.route} key={page.slug}>
+                      <span className="tag">{page.category}</span>
+                      <h4>{page.h1}</h4>
+                      <p>{page.description}</p>
+                      <span>Open page</span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="section section--compact">
         <div className="section-heading">

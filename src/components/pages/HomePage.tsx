@@ -2,29 +2,25 @@ import Link from "next/link";
 import {
   ArrowRight,
   BookOpenText,
-  Brush,
   Check,
   Crop,
   Download,
-  Dumbbell,
-  Home,
   LayoutTemplate,
   ShieldCheck,
   Sparkles,
-  Store,
   UploadCloud,
 } from "lucide-react";
 import { PhotoMaker } from "@/components/PhotoMaker";
 import { Reveal } from "@/components/Reveal";
-import { TemplateGallery } from "@/components/TemplateGallery";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { getGuideSummary } from "@/lib/i18n/dictionaries";
 import { localizedPath, type Locale } from "@/lib/i18n/locales";
 import { guides } from "@/lib/guides";
+import { getFeaturedSeoLandingPages } from "@/lib/seo-pages";
 
 const howIcons = [UploadCloud, Crop, LayoutTemplate, Download];
-const useCaseIcons = [Home, Dumbbell, Brush, Store];
 const featuredGuides = guides.slice(0, 3);
+const featuredSeoPages = getFeaturedSeoLandingPages(6);
 
 export function HomePage({ locale, dictionary }: { locale: Locale; dictionary: Dictionary }) {
   return (
@@ -74,39 +70,39 @@ export function HomePage({ locale, dictionary }: { locale: Locale; dictionary: D
         </div>
       </section>
 
-      <Reveal>
-        <TemplateGallery locale={locale} dictionary={dictionary} />
-      </Reveal>
-
-      <section id="examples" className="section">
-        <Reveal className="section-heading">
-          <div>
-            <span className="eyebrow">
-              <LayoutTemplate size={15} />
-              {dictionary.home.examples.eyebrow}
-            </span>
-            <h2>{dictionary.home.examples.heading}</h2>
-            <p>{dictionary.home.examples.body}</p>
-          </div>
-          <Link className="button button--ghost" href={localizedPath("/examples", locale)}>
-            {dictionary.home.examples.cta} <ArrowRight size={17} />
-          </Link>
-        </Reveal>
-        <div className="idea-grid">
-          {dictionary.home.examples.useCases.map((useCase, index) => {
-            const UseCaseIcon = useCaseIcons[index];
-            return (
-              <Reveal as="article" className="idea-card" key={useCase.title} delay={index * 90}>
-                <UseCaseIcon size={22} />
-                <h3>{useCase.title}</h3>
-                <p>{useCase.body}</p>
+      {locale === "en" ? (
+        <section id="popular-tools" className="section popular-tools-section">
+          <Reveal className="section-heading">
+            <div>
+              <span className="eyebrow">
+                <LayoutTemplate size={15} />
+                Popular tools
+              </span>
+              <h2>Before and after photo tools for common searches</h2>
+              <p>
+                Focused pages for the search intents people use most: side-by-side photos, progress
+                images, room updates, and reusable before and after templates.
+              </p>
+            </div>
+          </Reveal>
+          <div className="guide-grid guide-grid--featured">
+            {featuredSeoPages.map((page, index) => (
+              <Reveal as="article" className="guide-card" key={page.slug} delay={index * 70}>
+                <Link href={page.route}>
+                  <span className="tag">{page.category}</span>
+                  <h3>{page.h1}</h3>
+                  <p>{page.description}</p>
+                  <span className="button button--small button--ghost">
+                    Open page <ArrowRight size={15} />
+                  </span>
+                </Link>
               </Reveal>
-            );
-          })}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
-      <section className="section">
+      <section className="section home-guides-section">
         <Reveal className="section-heading">
           <div>
             <span className="eyebrow">

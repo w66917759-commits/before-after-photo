@@ -117,8 +117,12 @@ export function localeFromPathname(pathname: string): Locale {
 
 export function switchLocalePath(pathname: string, targetLocale: Locale) {
   const basePath = stripLocalePrefix(pathname);
-  const supportedPath = basePath.match(/^\/examples\/[^/]+/) || basePath.match(/^\/guides\/[^/]+/)
+  const isGuideDetail = basePath.match(/^\/guides\/[^/]+/);
+  const isEnglishSeoDetail = basePath.match(/^\/(?:tools|use-cases|templates)\/[^/]+/);
+  const supportedPath = isGuideDetail
     ? `/${basePath.split("/").filter(Boolean)[0]}`
+    : isEnglishSeoDetail
+      ? "/"
     : basePath;
 
   return localizedPath(supportedPath, targetLocale);

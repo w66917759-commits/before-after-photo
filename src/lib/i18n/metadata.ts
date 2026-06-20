@@ -28,13 +28,11 @@ export function getSiteMetadata(locale: Locale): Metadata {
       title: dictionary.home.metadata.title,
       description: dictionary.home.metadata.description,
       locale: localeConfig.htmlLang,
-      images: ["/seo-assets/composed/before-and-after-photos.webp"],
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title: dictionary.home.metadata.title,
       description: dictionary.home.metadata.description,
-      images: ["/seo-assets/composed/before-and-after-photos.webp"],
     },
   };
 }

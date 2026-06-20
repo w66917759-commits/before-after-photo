@@ -19,7 +19,6 @@ export type Dictionary = {
       templates: string;
       how: string;
       guides: string;
-      examples: string;
       about: string;
       contact: string;
       privacy: string;
@@ -54,13 +53,6 @@ export type Dictionary = {
       heading: string;
       body: string;
       steps: Array<{ title: string; body: string }>;
-    };
-    examples: {
-      eyebrow: string;
-      heading: string;
-      body: string;
-      cta: string;
-      useCases: Array<{ title: string; body: string }>;
     };
     guides: {
       eyebrow: string;
@@ -136,32 +128,6 @@ export type Dictionary = {
     handleLabel: string;
     valueTextSuffix: string;
   };
-  examplesPage: {
-    metadata: {
-      title: string;
-      description: string;
-    };
-    hero: {
-      eyebrow: string;
-      heading: string;
-      body: string;
-      makerCta: string;
-      templatesCta: string;
-      guidesCta: string;
-    };
-    common: {
-      eyebrow: string;
-      heading: string;
-      body: string;
-      items: Array<{ title: string; body: string }>;
-    };
-    workflow: {
-      eyebrow: string;
-      heading: string;
-      body: string;
-      cta: string;
-    };
-  };
   guidesPage: {
     metadata: {
       title: string;
@@ -172,7 +138,6 @@ export type Dictionary = {
       heading: string;
       body: string;
       makerCta: string;
-      examplesCta: string;
     };
     featured: {
       eyebrow: string;
@@ -213,7 +178,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "Templates",
         how: "How it works",
         guides: "Guides",
-        examples: "Examples",
         about: "About Us",
         contact: "Contact",
         privacy: "Privacy",
@@ -255,30 +219,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "Align", body: "Pan and zoom each side until it lines up." },
           { title: "Frame", body: "Pick an editorial layout that fits." },
           { title: "Export", body: "Download one polished, shareable PNG." },
-        ],
-      },
-      examples: {
-        eyebrow: "What people make",
-        heading: "Built for everyday comparisons",
-        body: "A general-purpose tool for any clear visual change — not a single-industry template.",
-        cta: "Browse examples",
-        useCases: [
-          {
-            title: "Home & renovation",
-            body: "Room makeovers, cleanups, repairs, and DIY builds shown in a single clear frame.",
-          },
-          {
-            title: "Personal progress",
-            body: "Fitness, style, and milestone photos lined up so the change reads instantly.",
-          },
-          {
-            title: "Creative work",
-            body: "Edits, restorations, and design drafts placed side by side, original to final.",
-          },
-          {
-            title: "Business posts",
-            body: "Service results and product updates turned into clean, client-ready comparisons.",
-          },
         ],
       },
       guides: {
@@ -364,61 +304,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "Drag to compare before and after",
       valueTextSuffix: "before",
     },
-    examplesPage: {
-      metadata: {
-        title: "Before and After Photo Examples | Before & After Photo Maker",
-        description:
-          "Simple before and after photo examples for home projects, personal progress, creative work, and small business posts.",
-      },
-      hero: {
-        eyebrow: "Examples",
-        heading: "Everyday before and after photo ideas",
-        body:
-          "Use the maker whenever two photos need to explain a visible change. The layout stays simple: upload, crop, choose a template, and download one polished PNG.",
-        makerCta: "Open maker",
-        templatesCta: "View templates",
-        guidesCta: "Read guides",
-      },
-      common: {
-        eyebrow: "Common uses",
-        heading: "Pick a simple layout for the change you want to show",
-        body:
-          "These examples are general-purpose. They are meant for ordinary photos, personal projects, and clear posts rather than one specific industry.",
-        items: [
-          {
-            title: "Home projects",
-            body: "Show a room cleanup, repair, makeover, garden update, or DIY build in one clear image.",
-          },
-          {
-            title: "Personal progress",
-            body: "Compare progress photos, style changes, learning milestones, or habit tracking snapshots.",
-          },
-          {
-            title: "Creative edits",
-            body: "Place an original and edited version side by side for design, art, photography, or thumbnails.",
-          },
-          {
-            title: "Small business posts",
-            body: "Create a clean comparison for services, product updates, client-friendly previews, or social posts.",
-          },
-          {
-            title: "Photo restoration",
-            body: "Compare old and restored photos, color changes, retouching work, or scan improvements.",
-          },
-          {
-            title: "Quick announcements",
-            body: "Turn a visible change into a polished PNG without designing a layout from scratch.",
-          },
-        ],
-      },
-      workflow: {
-        eyebrow: "Simple workflow",
-        heading: "Make the comparison, then download it",
-        body:
-          "Preview and crop in the browser. Final rendering creates the PNG for download without saving uploaded images to a gallery or database.",
-        cta: "Start with two photos",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "Before and After Photo Guides | Before & After Photo Maker",
@@ -431,7 +316,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "Learn when to use a before and after layout, how to make a clear side-by-side photo, and what to watch for with privacy, memories, progress, and sensitive images.",
         makerCta: "Open maker",
-        examplesCta: "View simple examples",
       },
       featured: {
         eyebrow: "Start here",
@@ -470,7 +354,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "テンプレート",
         how: "使い方",
         guides: "ガイド",
-        examples: "例",
         about: "概要",
         contact: "お問い合わせ",
         privacy: "プライバシー",
@@ -512,30 +395,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "位置合わせ", body: "それぞれの写真をパン、ズームして揃えます。" },
           { title: "フレーム", body: "用途に合う上品なレイアウトを選びます。" },
           { title: "書き出し", body: "共有しやすい1枚のPNGとして保存します。" },
-        ],
-      },
-      examples: {
-        eyebrow: "作成例",
-        heading: "日常の比較に使いやすいツール",
-        body: "どの業種にも限定されない、見た目の変化をわかりやすく見せるための汎用ツールです。",
-        cta: "例を見る",
-        useCases: [
-          {
-            title: "住まい・リフォーム",
-            body: "部屋の模様替え、片付け、修理、DIYの変化を1枚で見せられます。",
-          },
-          {
-            title: "個人の進捗",
-            body: "フィットネス、スタイル、節目の写真を揃えて、変化をすぐに伝えます。",
-          },
-          {
-            title: "クリエイティブ",
-            body: "編集、修復、デザイン案を元画像から完成形まで横並びで比較できます。",
-          },
-          {
-            title: "ビジネス投稿",
-            body: "サービス結果や商品更新を、クライアントにも見せやすい比較画像にできます。",
-          },
         ],
       },
       guides: {
@@ -621,43 +480,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "ドラッグして変更前と変更後を比較",
       valueTextSuffix: "変更前",
     },
-    examplesPage: {
-      metadata: {
-        title: "Before and After写真の例 | Before & After Photo Maker",
-        description:
-          "住まい、個人の進捗、クリエイティブ制作、小規模ビジネス投稿に使えるBefore & After写真のシンプルな例。",
-      },
-      hero: {
-        eyebrow: "例",
-        heading: "日常で使えるBefore & After写真アイデア",
-        body:
-          "2枚の写真で見た目の変化を伝えたいときに使えます。アップロード、トリミング、テンプレート選択、PNGダウンロードまでシンプルです。",
-        makerCta: "メーカーを開く",
-        templatesCta: "テンプレートを見る",
-        guidesCta: "ガイドを読む",
-      },
-      common: {
-        eyebrow: "よくある用途",
-        heading: "見せたい変化に合うシンプルなレイアウトを選ぶ",
-        body:
-          "これらの例は汎用的です。特定業界向けではなく、日常写真、個人プロジェクト、わかりやすい投稿に向いています。",
-        items: [
-          { title: "住まいのプロジェクト", body: "片付け、修理、模様替え、庭の更新、DIYを1枚で見せます。" },
-          { title: "個人の進捗", body: "進捗写真、スタイル変化、学習の節目、習慣記録を比較できます。" },
-          { title: "クリエイティブ編集", body: "デザイン、アート、写真、サムネイルの元画像と編集後を横並びにします。" },
-          { title: "小規模ビジネス投稿", body: "サービス結果、商品更新、顧客向けプレビュー、SNS投稿用の比較画像を作れます。" },
-          { title: "写真修復", body: "古い写真と修復後、色調変更、レタッチ、スキャン改善を比較できます。" },
-          { title: "簡単なお知らせ", body: "変化が見える写真を、ゼロからデザインせずに整ったPNGにできます。" },
-        ],
-      },
-      workflow: {
-        eyebrow: "シンプルな流れ",
-        heading: "比較画像を作り、ダウンロードする",
-        body:
-          "ブラウザでプレビューとトリミングを行います。最終生成では、アップロード画像をギャラリーやデータベースに保存せず、ダウンロード用PNGを作成します。",
-        cta: "2枚の写真で始める",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "Before and After写真ガイド | Before & After Photo Maker",
@@ -670,7 +492,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "Before & Afterレイアウトを使うタイミング、見やすい横並び写真の作り方、プライバシーや繊細な画像で注意すべき点を学べます。",
         makerCta: "メーカーを開く",
-        examplesCta: "例を見る",
       },
       featured: {
         eyebrow: "まずはこちら",
@@ -707,7 +528,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "템플릿",
         how: "사용 방법",
         guides: "가이드",
-        examples: "예시",
         about: "소개",
         contact: "문의",
         privacy: "개인정보",
@@ -749,18 +569,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "정렬", body: "각 사진을 이동하고 확대해 자연스럽게 맞춥니다." },
           { title: "프레임", body: "용도에 맞는 깔끔한 레이아웃을 선택합니다." },
           { title: "내보내기", body: "공유하기 좋은 완성 PNG 한 장을 다운로드합니다." },
-        ],
-      },
-      examples: {
-        eyebrow: "무엇을 만들 수 있나요",
-        heading: "일상적인 비교에 맞게 설계",
-        body: "특정 업종에만 묶이지 않고, 눈에 보이는 변화를 명확하게 보여주는 범용 도구입니다.",
-        cta: "예시 보기",
-        useCases: [
-          { title: "집과 리노베이션", body: "방 정리, 수리, 인테리어 변화, DIY 작업을 한 장의 이미지로 보여줍니다." },
-          { title: "개인 기록", body: "운동, 스타일, 중요한 순간의 사진을 맞춰 변화가 바로 보이게 합니다." },
-          { title: "크리에이티브 작업", body: "보정, 복원, 디자인 초안을 원본과 결과물로 나란히 배치합니다." },
-          { title: "비즈니스 게시물", body: "서비스 결과와 제품 업데이트를 고객에게 보여주기 좋은 비교 이미지로 만듭니다." },
         ],
       },
       guides: {
@@ -846,43 +654,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "드래그해서 전후를 비교",
       valueTextSuffix: "전",
     },
-    examplesPage: {
-      metadata: {
-        title: "Before & After 사진 예시 | Before & After Photo Maker",
-        description:
-          "집 프로젝트, 개인 기록, 크리에이티브 작업, 소규모 비즈니스 게시물에 사용할 수 있는 간단한 Before & After 사진 예시입니다.",
-      },
-      hero: {
-        eyebrow: "예시",
-        heading: "일상에서 쓰기 좋은 Before & After 사진 아이디어",
-        body:
-          "사진 두 장으로 눈에 보이는 변화를 설명해야 할 때 사용하세요. 업로드, 자르기, 템플릿 선택, PNG 다운로드까지 간단합니다.",
-        makerCta: "메이커 열기",
-        templatesCta: "템플릿 보기",
-        guidesCta: "가이드 읽기",
-      },
-      common: {
-        eyebrow: "자주 쓰는 용도",
-        heading: "보여주고 싶은 변화에 맞는 단순한 레이아웃 선택",
-        body:
-          "이 예시는 범용입니다. 특정 업계보다 일반 사진, 개인 프로젝트, 명확한 게시물에 맞춰져 있습니다.",
-        items: [
-          { title: "집 프로젝트", body: "방 정리, 수리, 리모델링, 정원 변화, DIY 결과를 한 장으로 보여줍니다." },
-          { title: "개인 기록", body: "진행 사진, 스타일 변화, 학습 단계, 습관 기록을 비교합니다." },
-          { title: "크리에이티브 편집", body: "디자인, 아트, 사진, 썸네일의 원본과 편집본을 나란히 둡니다." },
-          { title: "소규모 비즈니스 게시물", body: "서비스 결과, 제품 업데이트, 고객용 미리보기, 소셜 게시물을 위한 비교 이미지를 만듭니다." },
-          { title: "사진 복원", body: "오래된 사진과 복원본, 색상 변화, 리터칭, 스캔 개선을 비교합니다." },
-          { title: "빠른 안내", body: "보이는 변화를 처음부터 디자인하지 않고 정돈된 PNG로 만듭니다." },
-        ],
-      },
-      workflow: {
-        eyebrow: "간단한 흐름",
-        heading: "비교 이미지를 만들고 다운로드",
-        body:
-          "브라우저에서 미리보기와 자르기를 조정합니다. 최종 생성은 업로드 이미지를 갤러리나 데이터베이스에 저장하지 않고 다운로드용 PNG를 만듭니다.",
-        cta: "사진 두 장으로 시작",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "Before & After 사진 가이드 | Before & After Photo Maker",
@@ -895,7 +666,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "전후 레이아웃을 언제 써야 하는지, 명확한 나란히 비교 사진을 어떻게 만드는지, 개인정보와 민감한 이미지에서 무엇을 주의해야 하는지 알아보세요.",
         makerCta: "메이커 열기",
-        examplesCta: "간단한 예시 보기",
       },
       featured: {
         eyebrow: "여기서 시작",
@@ -932,7 +702,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "القوالب",
         how: "طريقة العمل",
         guides: "الأدلة",
-        examples: "الأمثلة",
         about: "من نحن",
         contact: "اتصل بنا",
         privacy: "الخصوصية",
@@ -974,18 +743,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "محاذاة", body: "حرّك وكبّر كل جانب حتى يتطابق بصريًا." },
           { title: "إطار", body: "اختر تخطيطًا أنيقًا يناسب الاستخدام." },
           { title: "تصدير", body: "نزّل صورة PNG مصقولة وجاهزة للمشاركة." },
-        ],
-      },
-      examples: {
-        eyebrow: "ما الذي يمكن إنشاؤه",
-        heading: "مصمم للمقارنات اليومية",
-        body: "أداة عامة لأي تغيير بصري واضح، وليست قالبًا خاصًا بصناعة واحدة.",
-        cta: "تصفح الأمثلة",
-        useCases: [
-          { title: "المنزل والتجديد", body: "اعرض تغييرات الغرف والتنظيف والإصلاحات ومشاريع DIY في إطار واحد واضح." },
-          { title: "التقدم الشخصي", body: "رتّب صور اللياقة أو الأسلوب أو المحطات المهمة بحيث تظهر الفروق فورًا." },
-          { title: "العمل الإبداعي", body: "ضع التعديلات والترميمات ومسودات التصميم جنبًا إلى جنب من الأصل إلى النتيجة." },
-          { title: "منشورات الأعمال", body: "حوّل نتائج الخدمات وتحديثات المنتجات إلى مقارنات نظيفة مناسبة للعملاء." },
         ],
       },
       guides: {
@@ -1071,43 +828,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "اسحب للمقارنة بين قبل وبعد",
       valueTextSuffix: "قبل",
     },
-    examplesPage: {
-      metadata: {
-        title: "أمثلة صور Before & After | Before & After Photo Maker",
-        description:
-          "أمثلة بسيطة لصور Before & After لمشاريع المنزل، والتقدم الشخصي، والعمل الإبداعي، ومنشورات الأعمال الصغيرة.",
-      },
-      hero: {
-        eyebrow: "الأمثلة",
-        heading: "أفكار يومية لصور Before & After",
-        body:
-          "استخدم الأداة عندما تحتاج صورتان إلى شرح تغيير بصري. المسار بسيط: رفع، قص، اختيار قالب، وتنزيل PNG مصقول.",
-        makerCta: "افتح الأداة",
-        templatesCta: "عرض القوالب",
-        guidesCta: "قراءة الأدلة",
-      },
-      common: {
-        eyebrow: "استخدامات شائعة",
-        heading: "اختر تخطيطًا بسيطًا للتغيير الذي تريد عرضه",
-        body:
-          "هذه الأمثلة عامة ومناسبة للصور العادية والمشاريع الشخصية والمنشورات الواضحة، لا لصناعة واحدة فقط.",
-        items: [
-          { title: "مشاريع المنزل", body: "اعرض التنظيف أو الإصلاح أو التجديد أو تحديث الحديقة أو مشروع DIY في صورة واضحة واحدة." },
-          { title: "التقدم الشخصي", body: "قارن صور التقدم وتغييرات الأسلوب ومحطات التعلم ولقطات تتبع العادات." },
-          { title: "التعديلات الإبداعية", body: "ضع النسخة الأصلية والمعدلة جنبًا إلى جنب للتصميم أو الفن أو التصوير أو الصور المصغرة." },
-          { title: "منشورات الأعمال الصغيرة", body: "أنشئ مقارنة نظيفة للخدمات أو تحديثات المنتجات أو معاينات العملاء أو منشورات التواصل." },
-          { title: "ترميم الصور", body: "قارن الصور القديمة والمرممة، وتغييرات اللون، والتنقيح، وتحسينات المسح." },
-          { title: "إعلانات سريعة", body: "حوّل أي تغيير مرئي إلى PNG مصقول دون تصميم تخطيط من الصفر." },
-        ],
-      },
-      workflow: {
-        eyebrow: "مسار بسيط",
-        heading: "أنشئ المقارنة ثم نزّلها",
-        body:
-          "اضبط المعاينة والقص في المتصفح. ينشئ التصيير النهائي ملف PNG للتنزيل دون حفظ الصور المرفوعة في معرض أو قاعدة بيانات.",
-        cta: "ابدأ بصورتين",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "أدلة صور Before & After | Before & After Photo Maker",
@@ -1120,7 +840,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "تعرّف متى تستخدم تخطيط قبل وبعد، وكيف تنشئ صورة مقارنة واضحة، وما الذي يجب الانتباه له في الخصوصية والذكريات والتقدم والصور الحساسة.",
         makerCta: "افتح الأداة",
-        examplesCta: "عرض أمثلة بسيطة",
       },
       featured: {
         eyebrow: "ابدأ هنا",
@@ -1157,7 +876,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "Modèles",
         how: "Fonctionnement",
         guides: "Guides",
-        examples: "Exemples",
         about: "À propos",
         contact: "Contact",
         privacy: "Confidentialité",
@@ -1199,18 +917,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "Aligner", body: "Déplacez et zoomez chaque côté jusqu'à ce que tout corresponde." },
           { title: "Encadrer", body: "Choisissez une mise en page éditoriale adaptée." },
           { title: "Exporter", body: "Téléchargez un PNG propre et prêt à partager." },
-        ],
-      },
-      examples: {
-        eyebrow: "Ce que l'on crée",
-        heading: "Pensé pour les comparaisons du quotidien",
-        body: "Un outil généraliste pour tout changement visuel clair, sans être limité à un seul secteur.",
-        cta: "Voir les exemples",
-        useCases: [
-          { title: "Maison et rénovation", body: "Montrez relooking, rangement, réparations et projets DIY dans un seul cadre clair." },
-          { title: "Progression personnelle", body: "Alignez fitness, style et moments clés pour rendre le changement immédiat." },
-          { title: "Création visuelle", body: "Placez retouches, restaurations et versions de design côte à côte, de l'original au final." },
-          { title: "Posts professionnels", body: "Transformez résultats de service et nouveautés produit en comparaisons propres pour vos clients." },
         ],
       },
       guides: {
@@ -1296,43 +1002,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "Faire glisser pour comparer avant et après",
       valueTextSuffix: "avant",
     },
-    examplesPage: {
-      metadata: {
-        title: "Exemples de photos Before & After | Before & After Photo Maker",
-        description:
-          "Des exemples simples de photos Before & After pour la maison, la progression personnelle, la création et les posts de petite entreprise.",
-      },
-      hero: {
-        eyebrow: "Exemples",
-        heading: "Idées de photos avant après pour le quotidien",
-        body:
-          "Utilisez l'outil dès que deux photos doivent expliquer un changement visible. Le flux reste simple : importer, recadrer, choisir un modèle et télécharger un PNG soigné.",
-        makerCta: "Ouvrir l'outil",
-        templatesCta: "Voir les modèles",
-        guidesCta: "Lire les guides",
-      },
-      common: {
-        eyebrow: "Usages courants",
-        heading: "Choisissez une mise en page simple pour le changement à montrer",
-        body:
-          "Ces exemples sont généralistes : photos ordinaires, projets personnels et posts clairs plutôt qu'un secteur unique.",
-        items: [
-          { title: "Projets maison", body: "Montrez rangement, réparation, relooking, jardin ou DIY dans une seule image claire." },
-          { title: "Progression personnelle", body: "Comparez progression, changements de style, étapes d'apprentissage ou suivi d'habitudes." },
-          { title: "Retouches créatives", body: "Placez original et version retouchée côte à côte pour design, art, photo ou miniatures." },
-          { title: "Posts de petite entreprise", body: "Créez une comparaison nette pour services, nouveautés produit, aperçus client ou réseaux sociaux." },
-          { title: "Restauration photo", body: "Comparez anciennes photos, versions restaurées, changements de couleur, retouches et scans améliorés." },
-          { title: "Annonces rapides", body: "Transformez un changement visible en PNG soigné sans créer une mise en page de zéro." },
-        ],
-      },
-      workflow: {
-        eyebrow: "Flux simple",
-        heading: "Créez la comparaison, puis téléchargez-la",
-        body:
-          "Prévisualisez et recadrez dans le navigateur. Le rendu final crée le PNG à télécharger sans enregistrer les images dans une galerie ou une base de données.",
-        cta: "Commencer avec deux photos",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "Guides photo Before & After | Before & After Photo Maker",
@@ -1345,7 +1014,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "Apprenez quand utiliser une mise en page avant après, comment créer une photo côte à côte claire, et quoi surveiller pour la confidentialité, les souvenirs, la progression et les images sensibles.",
         makerCta: "Ouvrir l'outil",
-        examplesCta: "Voir des exemples simples",
       },
       featured: {
         eyebrow: "Commencer ici",
@@ -1382,7 +1050,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         templates: "Plantillas",
         how: "Cómo funciona",
         guides: "Guías",
-        examples: "Ejemplos",
         about: "Acerca de",
         contact: "Contacto",
         privacy: "Privacidad",
@@ -1424,18 +1091,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
           { title: "Alinea", body: "Mueve y acerca cada lado hasta que encaje." },
           { title: "Enmarca", body: "Elige un diseño editorial que funcione." },
           { title: "Exporta", body: "Descarga un PNG pulido y listo para compartir." },
-        ],
-      },
-      examples: {
-        eyebrow: "Qué se puede crear",
-        heading: "Pensado para comparaciones cotidianas",
-        body: "Una herramienta general para cualquier cambio visual claro, no una plantilla de una sola industria.",
-        cta: "Ver ejemplos",
-        useCases: [
-          { title: "Hogar y reformas", body: "Muestra cambios de habitaciones, limpieza, reparaciones y proyectos DIY en un solo marco claro." },
-          { title: "Progreso personal", body: "Alinea fotos de fitness, estilo y metas para que el cambio se entienda al instante." },
-          { title: "Trabajo creativo", body: "Coloca ediciones, restauraciones y borradores de diseño lado a lado, del original al final." },
-          { title: "Publicaciones de negocio", body: "Convierte resultados de servicios y novedades de producto en comparaciones limpias para clientes." },
         ],
       },
       guides: {
@@ -1521,43 +1176,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
       handleLabel: "Arrastra para comparar antes y después",
       valueTextSuffix: "antes",
     },
-    examplesPage: {
-      metadata: {
-        title: "Ejemplos de fotos Before & After | Before & After Photo Maker",
-        description:
-          "Ejemplos simples de fotos Before & After para proyectos de hogar, progreso personal, trabajo creativo y publicaciones de pequeños negocios.",
-      },
-      hero: {
-        eyebrow: "Ejemplos",
-        heading: "Ideas cotidianas para fotos antes y después",
-        body:
-          "Usa la herramienta cuando dos fotos necesiten explicar un cambio visible. El diseño se mantiene simple: sube, recorta, elige una plantilla y descarga un PNG pulido.",
-        makerCta: "Abrir editor",
-        templatesCta: "Ver plantillas",
-        guidesCta: "Leer guías",
-      },
-      common: {
-        eyebrow: "Usos comunes",
-        heading: "Elige un diseño simple para el cambio que quieres mostrar",
-        body:
-          "Estos ejemplos son generales: pensados para fotos comunes, proyectos personales y publicaciones claras, no para una sola industria.",
-        items: [
-          { title: "Proyectos de hogar", body: "Muestra limpieza, reparación, reforma, jardín o DIY en una sola imagen clara." },
-          { title: "Progreso personal", body: "Compara fotos de progreso, cambios de estilo, hitos de aprendizaje o hábitos." },
-          { title: "Ediciones creativas", body: "Coloca original y versión editada lado a lado para diseño, arte, fotografía o miniaturas." },
-          { title: "Posts de pequeños negocios", body: "Crea una comparación limpia para servicios, novedades de producto, vistas para clientes o redes sociales." },
-          { title: "Restauración fotográfica", body: "Compara fotos antiguas y restauradas, cambios de color, retoque o mejoras de escaneo." },
-          { title: "Anuncios rápidos", body: "Convierte un cambio visible en un PNG pulido sin diseñar desde cero." },
-        ],
-      },
-      workflow: {
-        eyebrow: "Flujo simple",
-        heading: "Crea la comparación y descárgala",
-        body:
-          "Previsualiza y recorta en el navegador. El render final crea el PNG para descarga sin guardar las imágenes en una galería ni base de datos.",
-        cta: "Empezar con dos fotos",
-      },
-    },
     guidesPage: {
       metadata: {
         title: "Guías de fotos Before & After | Before & After Photo Maker",
@@ -1570,7 +1188,6 @@ export const dictionaries: Record<Locale, Dictionary> = {
         body:
           "Aprende cuándo usar un diseño antes y después, cómo crear una foto lado a lado clara y qué cuidar con privacidad, recuerdos, progreso e imágenes sensibles.",
         makerCta: "Abrir editor",
-        examplesCta: "Ver ejemplos simples",
       },
       featured: {
         eyebrow: "Empieza aquí",

@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "generate:ai-seo-sources": "python3 \"${CODEX_HOME:-$HOME/.codex}/skills/.system/imagegen/scripts/image_gen.py\" generate-batch --input scripts/ai-seo-image-prompts.jsonl --out-dir public/seo-assets/ai-sources --concurrency 2 --force --no-augment",
-    "generate:simple-frames": "node scripts/generate-simple-frames.mjs",
-    "generate:seo-assets": "node scripts/generate-seo-assets.mjs"
+    "generate:simple-frames": "node scripts/generate-simple-frames.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.20.0",

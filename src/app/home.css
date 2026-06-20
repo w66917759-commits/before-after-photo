@@ -70,6 +70,15 @@
   color: var(--clay);
 }
 
+.popular-tools-section {
+  padding-top: clamp(0.8rem, 0.55rem + 1vw, 1.5rem);
+  padding-bottom: clamp(1.4rem, 0.95rem + 1.4vw, 2.5rem);
+}
+
+.home-guides-section {
+  padding-top: clamp(1.4rem, 0.95rem + 1.4vw, 2.5rem);
+}
+
 /* On-load choreography -------------------------------------------- */
 
 .tool-hero .eyebrow,
